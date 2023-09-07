@@ -1,18 +1,17 @@
 import React from 'react'
-import Image from 'next/image'
 
 const skills = [
-    {skill: 'HTML'},
-    {skill: 'CSS'},
-    {skill: 'Python'},
-    {skill: 'Javacript'},
-    {skill: 'TypeScript'},
-    {skill: 'React'},
-    {skill: 'Next'},
-    {skill: 'Flask'},
-    {skill: 'Tailwind CSS'},
-    {skill: 'Git'},
-    {skill: 'GitHub'},
+    {skill: "HTML"},
+    {skill: "CSS"},
+    {skill: "Python"},
+    {skill: "Javacript"},
+    {skill: "TypeScript"},
+    {skill: "React"},
+    {skill: "Next"},
+    {skill: "Flask"},
+    {skill: "Tailwind CSS"},
+    {skill: "Git"},
+    {skill: "GitHub"},
 ]
 
 const About = () => {
