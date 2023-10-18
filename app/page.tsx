@@ -1,5 +1,6 @@
 import About from "@/components/About"
 import Hero from "@/components/Hero"
+import Joke from "@/components/JokePage"
 import Projects from "@/components/Projects"
 
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Hero />
       <About />
       <Projects />
+      <Joke />
     </main>
   )
 }

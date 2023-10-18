@@ -25,6 +25,10 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+  {
+    label: "Joke",
+    page: 'jokepage'
+  }
 ]
 
 export default function Navbar() {
@@ -66,7 +70,7 @@ export default function Navbar() {
                     key={idx}
                     to={item.page}
                     className={
-                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100"
+                      "block lg:inline-block text-neutral-900  hover:text-neutral-500 dark:text-neutral-100 hover:cursor-pointer"
                     }
                     activeClass="active"
                     spy={true}
