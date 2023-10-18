@@ -27,7 +27,7 @@ const About = () => {
                     <p>
                         By day I am a
                         <span className='font-bold'>{" professional triathlete"}</span>,
-                        <span className='font-bold'>{" endurance sports coach"}</span>, math
+                        <span className='font-bold'>{" endurance sports coach"}</span>, and
                         <span className='font-bold'>{" math tutor"}</span>.
                         By night, I am a software developer pursing my passion for
                         <span className='font-bold'>{" learning"}</span>,
