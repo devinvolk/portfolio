@@ -6,21 +6,24 @@ import  { BsGithub } from 'react-icons/bs'
 const work = [
   {
     name: 'Gym IQ',
-    description: "A user-tailored React web application for simplifying workouts at the gym",
+    description: 'A user-tailored React web application for simplifying workouts at the gym',
     image: '/social_fit.png',
     github: 'https://github.com/devinvolk/test_capstone',
+    deployed: 'https://gymiq.netlify.app',
   },
   {
-    name: 'Pokemon Flask App',
-    description: 'Built a Pokemon fan site with full CRUD operation, team selector through an API, and battle feature utilizing Flask, Jinja, Python, ElephantSQL, and PostgreSQL',
-    image: '/pokemon.png',
-    github: 'https://github.com/devinvolk/flask_hw',
+    name: 'Triathlon Threshold Calculator',
+    description: 'A mobile optimized web app designed to simplify both athletes and coaches lives by providing a one-stop-shop for multisport training zone calculation',
+    image: '/threshold_calculator.png',
+    github: 'https://github.com/devinvolk/threshold_calculator',
+    deployed: 'https://triathlonthresholdcalculator.netlify.app/',
   },
   {
     name: 'SummaryPro',
     description: 'An AI powered article summary tool built in React, Vite, Redux, and Tailwind CSS',
     image: '/summarypro.png',
     github: 'https://github.com/devinvolk/SummaryPro',
+    deployed: 'https://serene-rabanadas-143b28.netlify.app/',
   },
 ]
 
@@ -35,7 +38,7 @@ const Projects = () => {
           return (
             <div key={id} className='flex flex-col md:flex-row md:space-x-12'>
               <div className='mt-8 md:w-1/2'>
-                <Link href={item.github} target='_blank'>
+                <Link href={item.deployed} target='_blank'>
                   <Image
                     src={item.image}
                     alt=""
@@ -56,6 +59,9 @@ const Projects = () => {
                       size={30}
                       className="hover:-translate-y-1 transition-transform cursor-pointer"
                     />
+                  </Link>
+                  <Link href={item.deployed} target='_blank'>
+                    <h1 className='text-lg hover:-translate-y-1 transition-transform cursor-pointer'>[Deployment]</h1>
                   </Link>
                 </div>
               </div> 
