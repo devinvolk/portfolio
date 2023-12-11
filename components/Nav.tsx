@@ -26,8 +26,8 @@ const NAV_ITEMS: Array<NavItem> = [
     page: "projects",
   },
   {
-    label: "Joke",
-    page: 'jokepage'
+    label: "Contact",
+    page: "contact"
   }
 ]
 
