@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import  { BsGithub } from 'react-icons/bs'
+import { SiNetlify } from 'react-icons/si'
 
 const work = [
   {
@@ -61,7 +62,10 @@ const Projects = () => {
                     />
                   </Link>
                   <Link href={item.deployed} target='_blank'>
-                    <h1 className='text-lg hover:-translate-y-1 transition-transform cursor-pointer'>[Deployment]</h1>
+                    <SiNetlify
+                      size={30}
+                      className="hover:-translate-y-1 transition-transform cursor-pointer"
+                    />
                   </Link>
                 </div>
               </div> 
