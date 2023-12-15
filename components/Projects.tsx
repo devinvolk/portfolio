@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import  { BsGithub } from 'react-icons/bs'
 import { SiNetlify } from 'react-icons/si'
+import { TbBrandNextjs, TbBrandReact, TbBrandTailwind, TbBrandVite, TbBrandRedux, TbBrandJavascript, TbBrandFirebase, TbBrandOauth } from "react-icons/tb"
+import { SiMui } from "react-icons/si"
 
 const work = [
   {
@@ -11,20 +13,39 @@ const work = [
     image: '/social_fit.png',
     github: 'https://github.com/devinvolk/test_capstone',
     deployed: 'https://gymiq.netlify.app',
+    stack: [
+      <TbBrandReact key={'react'} size={30} />,
+      <TbBrandFirebase key={'firebase'} size={30} />,
+      <TbBrandOauth key={'oauth'} size={30} />,
+      <SiMui key={'mui'} size={30} />,
+      <TbBrandJavascript key={'javacript'} size={30} />,
+    ],
   },
   {
-    name: 'Triathlon Threshold Calculator',
-    description: 'A mobile optimized web app designed to simplify both athletes and coaches lives by providing a one-stop-shop for multisport training zone calculation',
+    name: 'Threshold Calculator',
+    description: 'Designed to provide a one-stop-shop for multisport training zone calculation',
     image: '/threshold_calculator.png',
     github: 'https://github.com/devinvolk/threshold_calculator',
     deployed: 'https://triathlonthresholdcalculator.netlify.app/',
+    stack: [
+      <TbBrandNextjs key={'next'} size={30} />,
+      <TbBrandTailwind key={'tailwind'} size={30} />,
+      <TbBrandJavascript key={'javacript'} size={30} />,
+    ],
   },
   {
     name: 'SummaryPro',
-    description: 'An AI powered article summary tool built in React, Vite, Redux, and Tailwind CSS',
+    description: 'An AI powered article summary tool built',
     image: '/summarypro.png',
     github: 'https://github.com/devinvolk/SummaryPro',
     deployed: 'https://serene-rabanadas-143b28.netlify.app/',
+    stack: [
+      <TbBrandReact key={'react'} size={30} />,
+      <TbBrandVite key={'vite'} size={30} />,
+      <TbBrandRedux key={'redux'} size={30} />,
+      <TbBrandTailwind key={'tailwind'} size={30} />,
+      <TbBrandJavascript key={'javascript'} size={30} />,
+    ],
   },
 ]
 
@@ -54,6 +75,16 @@ const Projects = () => {
                 <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>
                   {item.description}
                 </p>
+                <div className='flex flex-row space-x-2 mb-3'>
+                  <p className='text-lg font-semibold'>Stack:</p>
+                  <div className='flex flex-row space-x-4'>
+                    {item.stack.map((icon, index) => (
+                      <span key={index}>
+                        {icon}
+                      </span>
+                    ))}
+                  </div>
+                </div>
                 <div className='flex flex-row align-bottom space-x-4'>
                   <Link href={item.github} target='_blank'>
                     <BsGithub
