@@ -71,11 +71,8 @@ const Projects = () => {
                 </Link>
               </div>
               <div className='mt-12 md:w-1/2'>
-                <h1 className='text-4xl font-bold mb-6'>{item.name}</h1>
-                <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>
-                  {item.description}
-                </p>
-                <div className='flex flex-row space-x-2 mb-3'>
+                <h1 className='text-4xl font-bold mb-4'>{item.name}</h1>
+                <div className='flex flex-row space-x-2 mb-4'>
                   <p className='text-lg font-semibold'>Stack:</p>
                   <div className='flex flex-row space-x-4'>
                     {item.stack.map((icon, index) => (
@@ -85,6 +82,9 @@ const Projects = () => {
                     ))}
                   </div>
                 </div>
+                <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>
+                  {item.description}
+                </p>
                 <div className='flex flex-row align-bottom space-x-4'>
                   <Link href={item.github} target='_blank'>
                     <BsGithub
