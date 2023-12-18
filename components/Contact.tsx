@@ -4,7 +4,7 @@ import React from "react";
 import { useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
 
-const page: React.FC = () => {
+const Contact: React.FC = () => {
   const form = useRef<HTMLFormElement | null>(null);
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -93,4 +93,4 @@ const page: React.FC = () => {
   );
 };
 
-export default page;
+export default Contact;
