@@ -43,7 +43,7 @@ const Contact: React.FC = () => {
           onSubmit={sendEmail}
           className="flex flex-col mt-10 mx-2 md:mx-auto md:w-4/5"
         >
-          <label htmlFor="name" className="text-xl text-neutral-900">
+          <label htmlFor="name" className="text-xl text-[#242424] dark:text-slate-200">
             Name:
           </label>
           <input
@@ -55,7 +55,7 @@ const Contact: React.FC = () => {
             required
             className="shadow md:shadow-lg appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           ></input>
-          <label htmlFor="email" className="text-xl mt-10 text-neutral-900">
+          <label htmlFor="email" className="text-xl mt-10 text-[#242424] dark:text-slate-200">
             Email:
           </label>
           <input
@@ -67,7 +67,7 @@ const Contact: React.FC = () => {
             required
             className="shadow md:shadow-lg appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           ></input>
-          <label htmlFor="message" className="text-xl mt-10 text-neutral-900">
+          <label htmlFor="message" className="text-xl mt-10 text-[#242424] dark:text-slate-200">
             Message:
           </label>
           <input

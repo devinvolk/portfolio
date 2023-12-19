@@ -16,13 +16,13 @@ const Hero = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
             Hi, I&#39;m Devin!
           </h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
+          <p className="text-[#242424] dark:text-slate-200 text-lg mt-4 mb-6 md:text-2xl">
             I&#39;m a{" "}
             <span className="font-semibold text-blue-600">
               Software Developer {" "}
             </span>
             based in Bend, OR. I am continually learning and adding new skills to my toolkit.
-            To see what I am currently working on, clink below!
+            To see what I am currently working on, click below!
           </p>
           <Link
             to="projects"

@@ -89,12 +89,12 @@ const Projects = () => {
                 <div className="mt-12 md:w-1/2">
                   <h1 className="text-4xl font-bold mb-4">{item.name}</h1>
                   <div className="flex flex-row space-x-2 mb-4">
-                    <p className="text-lg font-semibold text-neutral-600">
+                    <p className="text-lg font-semibold text-neutral-600  dark:text-neutral-400">
                       Stack:
                     </p>
                     <div className="flex flex-row space-x-4">
                       {item.stack.map((icon, index) => (
-                        <span key={index} className="text-neutral-600">
+                        <span key={index} className="text-neutral-600  dark:text-neutral-400">
                           {icon}
                         </span>
                       ))}

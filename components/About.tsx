@@ -24,7 +24,7 @@ const About = () => {
             <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:text-left md:p-4 md:space-y-0 md:space-x-10'>
                 <div className='md:w-1/2'>
                     <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Get to know me!</h1>
-                    <p>
+                    <p className='text-[#242424] dark:text-slate-200'>
                         By day I am a
                         <span className='font-bold'>{" professional triathlete"}</span>,
                         <span className='font-bold'>{" endurance sports coach"}</span>, and
@@ -36,13 +36,13 @@ const About = () => {
                         tech that excites me.
                     </p>
                     <br />
-                    <p>
+                    <p className='text-[#242424] dark:text-slate-200'>
                         I graduated from California Polytechnic State University, San Luis Obispo, with a Bachelor's
                         in Biological Science in 2018. My academic journey instilled in me a rigorous approach to
                         problem-solving and the importance of attention to detail. 
                     </p>
                     <br />
-                    <p>
+                    <p className='text-[#242424] dark:text-slate-200'>
                         After school, I had the opportunity to purse the dream of elite sport and spent the
                         next several years in pursuit of that. I finished out my amauter career with a
                         <span className='font-bold'>{" Ironman 70.3 World Championship title "}</span>
@@ -51,13 +51,13 @@ const About = () => {
                         in Kona, Hawaii where I also went viral on several platforms for the events that occured at the finish.
                     </p>
                     <br />
-                    <p>
+                    <p className='text-[#242424] dark:text-slate-200'>
                         As a professional triathlete and endurance sports coach, I've learned discipline, resilience, and effective
                         time management. Competing internationally in Ironman events, I've honed my ability to perform under pressure,
                         adapt to diverse conditions, and push past limitations.
                     </p>
                     <br />
-                    <p>
+                    <p className='text-[#242424] dark:text-slate-200'>
                         I have always been interested in puzzles and leveraging technology to solve
                         problems a 12-week intensive full-stack bootcamp at Coding Temple. There, I immersed
                         myself in several technologies including React and Flask and learned languages like
