@@ -14,8 +14,24 @@ import {
   TbBrandOauth,
 } from "react-icons/tb";
 import { SiMui } from "react-icons/si";
+import { MdOutlineMarkEmailRead } from "react-icons/md";
 
 const work = [
+  {
+    name: "DVolkRacing",
+    description:
+      "A fully custom professional website utilizing the latest technology and code structure",
+    alt: "DVolkRacing landing page image",
+    image: "/DVolkRacing.png",
+    github: "https://github.com/devinvolk/coaching_website/tree/main",
+    deployed: "https://dvolkracing.netlify.app",
+    stack: [
+      <TbBrandNextjs key={"react"} size={30} />,
+      <TbBrandTailwind key={"tailwind"} size={30} />,
+      <TbBrandJavascript key={"javacript"} size={30} />,
+      <MdOutlineMarkEmailRead key={"emailjs"} size={30} />,
+    ],
+  },
   {
     name: "Gym IQ",
     description:
@@ -44,6 +60,7 @@ const work = [
       <TbBrandNextjs key={"next"} size={30} />,
       <TbBrandTailwind key={"tailwind"} size={30} />,
       <TbBrandJavascript key={"javacript"} size={30} />,
+      <MdOutlineMarkEmailRead key={"emailjs"} size={30} />,
     ],
   },
   {
