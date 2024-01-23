@@ -22,7 +22,7 @@ const work = [
     description:
       "A fully custom professional website utilizing the latest technology and code structure",
     alt: "DVolkRacing landing page image",
-    image: "/DVolkRacing.png",
+    image: "/DVolkRacing.webp",
     github: "https://github.com/devinvolk/coaching_website/tree/main",
     deployed: "https://dvolkracing.netlify.app",
     stack: [
@@ -37,7 +37,7 @@ const work = [
     description:
       "A user-tailored React web application for simplifying workouts at the gym",
     alt: "Gym IQ main page image",
-    image: "/social_fit.png",
+    image: "/socialFit.webp",
     github: "https://github.com/devinvolk/test_capstone",
     deployed: "https://gymiq.netlify.app",
     stack: [
@@ -53,7 +53,7 @@ const work = [
     description:
       "Designed to provide a one-stop-shop for multisport training zone calculation",
     alt: "Threshold Caculator landing page image",
-    image: "/threshold_calculator.png",
+    image: "/thresholdCalculator.webp",
     github: "https://github.com/devinvolk/threshold_calculator",
     deployed: "https://triathlonthresholdcalculator.netlify.app/",
     stack: [
@@ -67,7 +67,7 @@ const work = [
     name: "SummaryPro",
     description: "An AI powered article summary tool built",
     alt: "SummaryPro landing page image",
-    image: "/summarypro.png",
+    image: "/summarypro.webp",
     github: "https://github.com/devinvolk/SummaryPro",
     deployed: "https://serene-rabanadas-143b28.netlify.app/",
     stack: [

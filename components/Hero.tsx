@@ -10,7 +10,7 @@ const Hero = () => {
     <section id="home">
       <div className='flex flex-col text-center items-center justify-center my-10 py-16 sm:py-32 md:flex-row md:space-x-4 md:text-left md:py-46'>
         <div className='md:w-3/5 md:mt-2'>
-          <Image className='rounded-full shadow-2xl' src='/headshot.png' alt="head shot" width={300} height={300} />
+          <Image className='rounded-full shadow-2xl' src='/headshot.webp' alt="head shot" width={300} height={300} />
         </div>
         <div className='md:w-3/5 md:mt-2'>
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
